@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Fondo: rgb(37, 37, 46);
+    --Gris1: rgb(143, 146, 160);
+    --Gris2: rgb(192, 195, 211);
+    --verde:rgb(162, 233, 68);
+}
+
+.bg-dark {
+    background-color: var(--Fondo) !important;
+}
+
+.nav-link {
+    color: var(--Gris1) !important;
+}
+
+.navbar {
+    z-index: 1000;
+}
+
+.elecciones {
+    width: 80%;
+    height: 100%;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.elecciones .container-elecciones {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.elecciones .container-elecciones .cartas {
+    margin: 0 3px;
+    line-height: 1.5;
+}
+
+.eleccion-Est {
+    border: 2px solid blue;
+    padding: 40px;
+}
+
+.eleccion-Jr {
+    border: 2px solid rgb(202, 105, 14);
+    padding: 40px;
+}
+
+.eleccion-Tr {
+    border: 2px solid rgb(0, 255, 128);
+    padding: 40px;
+}
+
+.formu {
+    width: 51vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formu input{
+    border: 1px solid var(--Gris1);
+    border-radius: 5px;
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+}
+.formu select{
+    border: 1px solid var(--Gris1);
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    flex: 1;
+
+}
+
+.formu .nombre {
+    display: flex;
+    width: 100%;
+}
+
+.email {
+    width: 100%;
+    margin: 10px 0;
+    margin-right: 10px;
+}
+
+.precio {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+.formu .pagofinal{
+    margin: 20px 0;
+    text-align: left;
+    background-color: var(--Gris2);
+    border: 1px solid var(--Gris1);
+    border-radius: 5px;
+    padding: 20px;
+
+
+}
+
+.formu .botonera{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+.formu .botonera .btn-submit{
+    border-radius: 5px;
+    background-color: var(--verde);
+    color: white;
+}
+
+.navbar-brand-h1 {
+    color: var(--Gris2);
+    font-size: 22px;
+    padding: 0;
+}
+
+.foto {
+    height: 90px;
+    margin-right: 16px;
+    padding: 16px 0;
+}
+
+.navbar .navbar-toggler {
+    padding: 10px 12px;
+    font-size: 20px;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.navbar .navbar-nav {
+    margin-left: auto;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.navbar .navbar-nav a:hover {
+    color: aliceblue !important;
+}
+
+.navbar .navbar-nav a:last-child {
+    color: darkgreen !important;
+}
+
+.footer{
+    background-color: rgb(18, 51, 59);
+}
+
+.footer .container-footer{
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .container-footer a{
+    text-decoration: none;
+    color: var(--Gris2);
+    padding: 2rem 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer .container-footer a:hover{
+    color: aliceblue;
+}
+
+@media (max-width: 576px) {
+    .showcase .buttonera{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+}
+
+@media (max-width: 970px) {
+    .container-cta img {
+        display: none;
+    }
+}
