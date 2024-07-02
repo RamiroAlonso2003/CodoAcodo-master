@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/estilosCompras.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="Pagina Codo a Codo" content="tp anual codo a codo">
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -26,7 +27,7 @@
     </div>
   </nav>
   
-  <section class="elecciones">
+  <div class="elecciones">
     <div class="container-elecciones">
       <div class="cartas">
         <div class="eleccion-Est">
@@ -54,7 +55,7 @@
       </div>  
     </div>
     <h6>VENTAS</h6>
-    <h1>VALOR DEL TICKET</h1>
+    <h1>VALOR DEL TICKET $200 cada uno</h1>
     <div class="formu">
         <div class="nombre">
           <input type="text" placeholder="Nombre" required>
@@ -62,8 +63,8 @@
         </div>
         <input type="email" class="email" name="input-lastname" placeholder="Correo" required>
         <div class="precio">  
-          <input type="text" placeholder="Cantidad" required>
-          <select required>
+          <input id="cantidad" placeholder="Cantidad" required>
+          <select required id="opcion">
             <option value="Estudiante">Estudiante</option>
             <option value="Trainee">Trainee</option>
             <option value="Junior">Junior</option>
@@ -73,11 +74,11 @@
       <h5 class="pagofinal">total a pagar:$</h5>
 
      <div class="botonera"> 
-      <input class="btn-submit" type="submit" value="Borrar">
-      <input class="btn-submit" type="submit" value="Resumen">
+      <input class="btn-submit" type="reset" value="Borrar">
+      <input class="btn-submit" type="button" value="Resumen" id="resumenBtn">
     </div>  
     </div>    
-  </section>
+  </div>
 
   <footer class="footer">
     <div class="container-footer">

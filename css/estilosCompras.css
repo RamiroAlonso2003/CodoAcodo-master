@@ -8,7 +8,8 @@
     --Fondo: rgb(37, 37, 46);
     --Gris1: rgb(143, 146, 160);
     --Gris2: rgb(192, 195, 211);
-    --verde:rgb(162, 233, 68);
+    --verde: rgb(162, 233, 68);
+    --verde2: rgb(111, 158, 49);
 }
 
 .bg-dark {
@@ -65,20 +66,20 @@
     flex-direction: column;
 }
 
-.formu input{
+.formu input {
     border: 1px solid var(--Gris1);
     border-radius: 5px;
     flex: 1;
     margin-right: 10px;
     padding: 10px;
 }
-.formu select{
+
+.formu select {
     border: 1px solid var(--Gris1);
     border-radius: 5px;
     margin-right: 10px;
     padding: 10px;
     flex: 1;
-
 }
 
 .formu .nombre {
@@ -98,34 +99,40 @@
     margin: 10px 0;
 }
 
-.formu .pagofinal{
+.formu .pagofinal {
     margin: 20px 0;
     text-align: left;
     background-color: var(--Gris2);
     border: 1px solid var(--Gris1);
     border-radius: 5px;
     padding: 20px;
-
-
 }
 
-.formu .botonera{
+.formu .botonera {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     margin: 10px 0;
 }
 
-.formu .botonera .btn-submit{
+.formu .botonera .btn-submit {
     border-radius: 5px;
     background-color: var(--verde);
     color: white;
 }
 
+.formu .botonera .btn-submit:hover {
+    border: 1px solid;
+    background-color: var(--verde2);
+    cursor: pointer; /* Asegúrate de que el cursor cambie a pointer */
+    transition: 0.5s;
+}
+
 .navbar-brand-h1 {
     color: var(--Gris2);
+    transition: 0.5s;
     font-size: 22px;
-    padding: 0;
+    padding: 0
 }
 
 .foto {
@@ -179,21 +186,4 @@
 
 .footer .container-footer a:hover{
     color: aliceblue;
-}
-
-@media (max-width: 576px) {
-    .showcase .buttonera{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-
-
-}
-
-@media (max-width: 970px) {
-    .container-cta img {
-        display: none;
-    }
 }
