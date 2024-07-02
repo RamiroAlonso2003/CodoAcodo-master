@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
 :root{
     --Fondo: rgb(37, 37, 46);
     --Gris1: rgb(143, 146, 160);
