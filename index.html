@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Pagina Codo a Codo" content="tp anual codo a codo">
+    <title>Document</title>
+</head>
+<html>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <span><img src="img/codoacodo.png" class="foto"></img></span>
+    <h1 class="navbar-brand-h1">Conf Bs As</h1>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms auto">
+          <a class="nav-link active" href="#oradores" aria-current="page" href="#">La conferencia</a>
+          <a class="nav-link" href="#cta">El lugar y la fecha</a>
+          <a class="nav-link" href="#formu">Conviertete en orador</a>
+          <a class="nav-link disabled" href="#" id="ultimo" >Comprar tickets</a>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <section class="showcase">
+    <div class="container-flex">
+      <div class="content">
+         <h1>Conf Bs As</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+          elit. Praesentium impedit minima
+          corporis nam officiis animi nobis 
+          eveniet asperiores dolor, nemo earum reprehenderit, 
+          magni in.
+          Illum voluptatum quia cumque eum distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor fuga labore quidem id consequatur doloribus voluptate in
+          at exercitationem dolorem molestias velit tempora libero error laudantium neque unde voluptas nemo.
+         </p>
+         <div class="buttonera">
+            <a class="btn btn-transparent" href="#">Quiero ser orador</a>
+            <a class="btn btn-solid" href="compras.html">Comprar tickets</a>
+         </div>
+      </div>
+    </div>
+   </section>
+
+
+
+   <section class="oradores" id="oradores">
+    <div class="titulo">
+      <h6>CONOCE A LOS</h6>
+      <h1>ORADORES</h1>
+    </div>
+    <div class="container-cartas">
+    <div class="cartas">
+      <img src="./img/steve.jpg" alt="">
+      <div class="skills">
+        <h6 class="JS">JavaScript</h6>
+        <h6 class="Rt">React</h6>
+      </div>
+      <h3>steve Jobs</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi impedit ratione quaerat asperiores temporibus fuga dolor, officia minima animi soluta beatae qui nam incidunt doloremque rem. Illum quae enim ad?</p>
+    </div>
+
+    <div class="cartas">
+      <img src="./img/bill.jpg" alt="">
+      <div class="skills">
+        <h6 class="JS">JavaScript</h6>
+        <h6 class="Rt">React</h6>
+      </div>
+      <h3>Bill Gates</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi impedit ratione quaerat asperiores temporibus fuga dolor, officia minima animi soluta beatae qui nam incidunt doloremque rem. Illum quae enim ad?</p>
+    </div>
+
+    <div class="cartas">
+      <img src="./img/ada.jpeg" alt="">
+      <div class="skills">
+        <h6 class="Ng">Negocios</h6>
+        <h6 class="St">Startups</h6>
+      </div>
+      <h3>Ada lovelace</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi impedit ratione quaerat asperiores temporibus fuga dolor, officia minima animi soluta beatae qui nam incidunt doloremque rem. Illum quae enim ad?</p>
+    </div>
+   </section>
+
+
+
+  <section id="cta">
+    <div class="container-cta">
+      <img src="./img/honolulu.jpg" alt="honolulu">
+      <div class="cta-content">
+        <h2>Bs As - Octubre</h2>
+        <p>Buenos Aires es la gran capital cosmopolita de Argentina. Su centro es la Plaza de Mayo, rodeada de imponentes edificios del siglo XIX, incluida la Casa Rosada, el icónico palacio presidencial que tiene varios balcones. Entre otras atracciones importantes, se incluyen el Teatro Colón, un lujoso teatro de ópera de 1908 con cerca de 2,500 asientos, y el moderno museo MALBA, que exhibe arte latinoamericano </p>
+        <a href="#" class="btn-transparent">Conoce mas
+
+
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="formu" id="formu">
+    <div class="title">
+      <h6>CONVIERTETE EN UN</h6>
+      <H1>ORADOR</H1>
+      <H3>Anótate como orador para dar una <u>charla ignite</u> Cuentanos de que quieres hablar!</H3>
+    </div>
+    <div class="container-formu">
+      <form action="">
+        <div class="first-last-name">
+          <input type="text" class="input-name" name="input-firtname" placeholder="Nombre" required>
+          <input type="text" class="input-name" name="input-lastname" placeholder="Apellido" required>
+        </div>
+        <textarea name="input-about" class="input-about" cols="30" rows="6" placeholder="Sobre que quieres hablar"></textarea>
+        <h6>Recuerda incluir un título para tu charla</h6>
+        <input class="btn-submit" type="submit" value="Enviar">
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container-footer">
+      <a class="footer-item" href="#">Preguntas frecuentes</a>
+      <a class="footer-item" href="#">Contáctanos</a>
+      <a class="footer-item" href="#">Prensa</a>
+      <a class="footer-item" href="#">Conferencias</a>
+      <a class="footer-item" href="#">Terminos y condiciones</a>
+      <a class="footer-item" href="#">Privacidad</a>
+      <a class="footer-item" href="#">Estudiantes</a>
+    </div>
+  </footer>
+</body>
+</html>
